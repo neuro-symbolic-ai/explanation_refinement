@@ -56,6 +56,9 @@ python main.py --model gpt-4o --data example
 ```
 
 #
+We also have an integrated version with lastest updates at [repository](https://github.com/neuro-symbolic-ai/reasoning_with_nle_emnlp_2024/tree/main) with [running examples](https://github.com/neuro-symbolic-ai/reasoning_with_nle_emnlp_2024/blob/main/Neuro-Symbolic%20Explanation%20Refinement.ipynb).
+
+#
 If you find this repository useful, please consider citing our paper.
 ```
 @inproceedings{quan-etal-2024-verification,
