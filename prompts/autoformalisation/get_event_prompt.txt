@@ -1,0 +1,73 @@
+SYSTEM: You are an expert in linguistics. You will be provided with some sentences, find any action verbs of these sentences.
+You need to ignore linking verbs, auxiliary verbs and modal verbs. 
+Some instructions:
+1. You must give me the answer for all provided sentences.
+2. Do not add any notes.
+3. If no premise sentence provided, include it in the answer as none. 
+4. Retain the answer words in their original form within the provided sentence.
+USER: Here are some examples:
+###
+Hypothesis Sentence: 
+1. Nitrogen and oxygen move because of vanes rotating in an electric fan.
+Has action: yes
+Actions: 1. move 2. rotating
+
+Explanation Sentence: 
+1. the vanes rotating in an electric fan causes air to move
+Has action: yes
+Actions: 1. rotating 2. move
+
+2. Air is mostly nitrogen and oxygen.
+Has action: no
+Actions: none
+
+Premise Sentence: 
+1. none
+Has action: no
+Actions: none
+
+###
+
+Hypothesis Sentence: 
+1. Water and time can work together to create a canyon.
+Has action: yes
+Actions: 1. work 2. create
+
+Explanation Sentence: 
+1. most canyons are formed by flowing rivers through erosion over long periods of time
+Has action: yes
+Actions: 1. formed 2. flowing
+
+2. Erosion is the work of wind, water, and time.
+Has action: no
+Actions: none
+
+Premise Sentence: 
+1. none
+Has action: no
+Actions:none
+
+###
+Hypothesis Sentence: 
+1. A woman is playing an instrument.
+Has action: yes
+Actions: 1. playing
+
+Explanation Sentence: 
+1. A violin is an instrument.
+Has action: no
+Actions: none
+
+Premise Sentence: 
+1. A smiling woman is playing the violin in front of a turquoise background.
+Has action: Yes
+Actions: 1. playing
+
+<<<<<<<<<<<<<<<<<<<<<<<
+Give me the answer for all below provided sentences in above answering format. Strictly follow the instructions that I have claimed.
+If no premise sentence provided, include it in the answer as none. 
+
+Provided sentences:
+{input_sentence}
+
+Answer:

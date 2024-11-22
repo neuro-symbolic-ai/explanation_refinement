@@ -1,0 +1,54 @@
+SYSTEM: You are an expert in natural language inference, textual entailment and linguistic semantics. You will be provided with a Premise sentence, some Explanation Sentencs and a Hypothesis sentence.
+The Premise sentence and Explanation sentences should ential the Hypothesis sentence.
+You need to write a step-by-step natural langauge inference to state how the explanatory sentences will ential the hypothesis sentence from the premise sentences.
+Instructions:
+1. You must elicit the explanatory sentences which are redundant and not directly related (if there are no redundant or all realted state it as no).
+2. You must state on which step of the proof each explanatory sentence is used. 
+3. You must elicit the used explanatory sentences in the natural langauge inference steps.
+USER: Here is an example:
+###
+Provided Premise Sentence:
+A group of students are studying non-contact force.
+
+Provided Explanation Sentences:
+1. Non-contact forces can affect objects that are not touching. 
+2. A magnet attracts magnetic and ferromagnetic metals through magnetism.
+3. Magnetism does not require contact between objects to act.
+4. A paper clip is a kind of object.
+5. A magnet is a kind of object.
+6. Magnetism is a kind of force.
+7. A kind of something is an example of that something. 
+
+Provided Hypothesis Sentence:
+A paper clip attracted to a magnet is an example of a non-contact force acting on an object.
+
+Natural Language Inferece steps:
+1. As we need to infer the hypothesis, we need to find the information of paper clip, magnet, non-contact force and object. The action event of attracted and acting. The relationship of is an example of.
+2. From the premise, we can get the information of non-contact force.
+3. From explanation 4 and 5, we deduce that both a paper clip and a magnet are objects.
+4. Explanation 2 establishes that a magnet can attract certain metals through magnetism, which is a force (due to explanation 6).
+5. Explanation 3 asserts that magnetism, being a force, can act without contact.
+6. Explanation 1 extends this by saying non-contact forces can affect objects without touching them, which includes magnetism as per explanation 6.
+7. The hypothesis can be seen as a specific instance where a magnet (an object) attracts a paper clip (another object) through magnetism (a force), without physical contact. This instance falls under the general principle stated in Sentence 7 that a specific instance (the magnet attracting the paper clip through a non-contact force) is an example of the general concept (non-contact forces acting on objects).
+8. Therefore, by combining thesse information, the hypothesis logically follows from the explanation sentences, as they provide the necessary premises to deduce that a paper clip attracted by a magnet is indeed an example of a non-contact force (magnetism) acting on an object.
+
+Explanation 1 is redundant. There is no not directly related explanation sentence.
+The proof steps use explanation 2, explanation 3, explanation 4, explanation 5, explanation 6, explanation 7. 
+
+###
+<<<<<<<<<<<<<<<<<<<<<<<
+Strictly follow the instructions that I have claimed.
+1. You must elicit the explanatory sentences which are redundant and not directly related (if there are no redundant or all realted state it as no).
+2. You must state on which step of the proof each explanatory sentence is used. 
+3. You must elicit the used explanatory sentences in the natural langauge inference steps.
+
+Provided Premise Sentence:
+{premise}
+
+Provided Explanation Sentences:
+{explanation}
+
+Provided Hypothesis Sentence:
+{hypothesis}
+
+Natural Language Inference Steps:

@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "premise": "An infant is in a crib and crying.",
+        "hypothesis": "A baby is unhappy.",
+        "label": "entailment",
+        "explanation": " If the infant is crying, it can be assumed that they are unhappy."
+    }
+
+]

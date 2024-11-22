@@ -1,0 +1,179 @@
+SYSTEM: You are an expert in Isabelle theorem prover, first-order logic and Davidsonian event semantics. 
+You will be provided with an Isabelle code which consistent of some axioms, a theorem hypothesis that needs to be proven.
+The logical form of axioms indicates some explanation sentences, the logical form after "assume asm:" indicates the predefined variables and the logical form after "shows" indicates a hypothesis sentence. The natural language form is stated as the comments.
+You will also be provided with a natural langauge inference strategy that states how to prove the hypothesis using the explanation sentences. The inference strategy also states which explanation sentence is used, redundant or not related.
+You need to consturct proof steps for the theorem hypothesis in "proof -" and "qed" section based on the provided natural langauge inference strategy.
+Some instructions:
+1. 'sorry' and ‘fix’ command is not allowed. 
+2. colon, square brackets is illegal in the proof steps syntax.
+3. use single backtick whenever need writing using `varaible` such as using `Something x` `Something x` by blast like the above example answers does.
+4. The proof method will mostly use 'by blast','by auto' and 'by simp' 
+5. In the last step of proof, 'then show ?thesis' command will have using something by blast. It should using as most as possible varaibles that have been claimed such as 'then show ?thesis using asm `Varaible x` `Varaible y` by blast'
+6. You should only write isabelle code for the proof steps(no natural language comments between proof - and qed)
+7. The Isabelle will use HOL session syntax. Commas and square brackets are not allowed.
+8. Do not write or involving any proof steps that stated as unrelated or redundant.
+9. You must give me the answer(code) in triple brackticks as 
+```
+code goes here
+```
+10. The indentation is very import, it should have a same indentation as the examples does.
+USER: Here are some examples:
+###
+Provided Isabelle Code:
+```
+theory question_51_0
+imports Main
+
+begin
+typedecl entity
+typedecl event
+consts
+  Plant :: "entity ⇒ bool"
+  Producer :: "entity ⇒ bool"
+  Green :: "entity ⇒ bool"
+  Energy :: "entity ⇒ bool"
+  Food :: "entity ⇒ bool"
+  Use :: "event ⇒ bool"
+  Make :: "event ⇒ bool"
+  Agent :: "event ⇒ entity ⇒ bool"
+  Patient :: "event ⇒ entity ⇒ bool"
+
+(* Explanation 1: Producers use energy to make food. *)
+axiomatization where
+  explanation_1: "∀x y w e1 e2. Producer x ∧ Energy y ∧ Food w ⟶ (Use e1 ∧ Agent e1 x ∧ Patient e1 y ∧ Make e2 ∧ Agent e2 x ∧ Patient e2 w)"
+
+(* Explanation 2: If the plant is green, it is a producer. *)
+axiomatization where
+  explanation_2: "∀x. Plant x ∧ Green x ⟶ Producer x"
+
+(* Explanation 3: All plants are green. *)
+axiomatization where
+  explanation_3: "∀x. Plant x ⟶ Green x"
+
+theorem hypothesis:
+  assumes asm: "Plant x ∧ Energy y ∧ Food z"
+  (* Hypothesis: Plants can use energy in order to make food for itself and others. *)
+  shows "∃x y z e1 e2. Plant x ∧ Energy y ∧ Food z ∧ Use e1 ∧ Agent e1 x ∧ Patient e1 y ∧ Make e2 ∧ Agent e2 x ∧ Patient e2 z"
+proof -
+  
+qed
+
+end
+```
+Provided Natural Language Inference strategy:
+
+1. As we need to infer the hypothesis, we need to find the information of plants, energy, food and the action event of use and make. 
+1. From the explanation sentence 1, we know producers use energy to make food.
+3. From the explanation sentence 2, it suggests that if the plant is green, it is a producer.
+4. From the expalantion sentence 3, it suggests that all plants are green.
+4. We can then infer that plant are producer using explanation sentnece 3 and explanation sentence 2.
+5. By combining these steps, we can first infer the information of producer use energy to make food (from explanation 1) and then infer the hypothesis by stating plant are producer (from explanation 2 and explanation 3) and plant use energy to make food.
+
+There is no redundant or not directly related explanation sentences.
+The proof steps use explanation 1, explanation 2 and explanation 3. 
+
+Answer:
+```
+proof -
+  from asm have "Green x" using explanation_3 by simp
+  then have "Producer x" using explanation_2 asm by simp
+  then obtain e1 e2 where "Use e1 ∧ Agent e1 x ∧ Patient e1 y ∧ Make e2 ∧ Agent e2 x ∧ Patient e2 z" using explanation_1 asm by blast
+  then show ?thesis using asm by blast
+qed
+```
+###
+Provided Isabelle Code:
+```
+theory question_64_0
+imports Main
+
+begin
+typedecl entity
+typedecl event
+consts
+  PlantReproduction :: "entity ⇒ bool"
+  Bee :: "entity ⇒ bool"
+  Pollen :: "entity ⇒ bool"
+  Plant :: "entity ⇒ bool"
+  Nectar :: "entity ⇒ bool"
+  Insect :: "entity ⇒ bool"
+  Require :: "event ⇒ bool"
+  Need :: "event ⇒ bool"
+  Carry :: "event ⇒ bool"
+  Collect :: "event ⇒ bool"
+  Live :: "event ⇒ bool"
+  Agent :: "event ⇒ entity ⇒ bool"
+  Patient :: "event ⇒ entity ⇒ bool"
+  FromTo :: "event ⇒ entity ⇒ entity ⇒ bool"
+
+(* Explanation 1: Plant reproduction often requires pollen. *)
+axiomatization where
+  explanation_1: "∀x y e. PlantReproduction x ∧ Pollen y ∧ Require e ∧ Agent e x ∧ Patient e y"
+
+(* Explanation 2: Bees carry pollen from one plant to another when they collect both nectar and pollen. *)
+axiomatization where
+  explanation_2: "∀x y z w e1 e2. Bee x ∧ Pollen y ∧ Plant z ∧ Nectar w ∧ Carry e1 ∧ Agent e1 x ∧ Patient e1 y ∧ Collect e2 ∧ Agent e2 x ∧ Patient e2 w ∧ FromTo e1 z w"
+
+(* Explanation 3: Bees are insects. *)
+axiomatization where
+  explanation_3: "∀x. Bee x ⟶ Insect x"
+
+(* Explanation 4: Insects normally live with plants. *)
+axiomatization where
+  explanation_4: "∀x y. Bee x ∧ Insect y ⟶ (∃e. Live e ∧ Agent e x ∧ Patient e y)"
+
+(* Explanation 5: Plant needs pollen. *)
+axiomatization where
+  explanation_5: "∀x y. Plant x ∧ Pollen y ∧ Need e ∧ Agent e x ∧ Patient e y"
+
+theorem hypothesis:
+  assumes asm: "PlantReproduction x"
+  (* Hypothesis: Plant reproduction often requires bees. *)
+  shows "∃x y e. PlantReproduction x ∧ Bee y ∧ Require e ∧ Agent e x ∧ Patient e y"
+proof -
+ 
+qed
+
+end
+```
+Provided Natural Language Inference strategy:
+
+1. As we need to infer the hypothesis, we need to find the information of plant, reproduction process, requires action and bees.
+2. From explanation 1, we get the information of plant reproduction, which requires pollen.
+3. From explanation2, we get the information of bees carry pollen and the information of plant.
+4. We can then infer that planat reproduction requires bees since bees carry pollen and plant reproduction often requires pollen.
+5. By combining these steps, we can infer the hypothesis by first satisified the information of plant reproduction and requires action (from explanation 1). Then we can satisify the information of bees (from expalnation 2 and explanation 1) since plant reproduction requires pollen and bees carry pollen. 
+
+Explanation 3 and 4 is not related and Explanation 5 is redundant.
+The proof steps use explanation 1 and explanation 2.
+
+Answer: 
+```
+proof -
+  from asm have "PlantReproduction x" by simp
+  then obtain e1 where e1: "Require e1 ∧ Agent e1 x ∧ Patient e1 y" using explanation_1 by blast
+  then have "Bee y" using explanation_2 by blast
+  have conclusion: "Require e1 ∧ Agent e1 x ∧ Patient e1 y" using e1 by simp
+  show ?thesis using asm conclusion `Bee y` by blast
+qed
+```
+###
+
+<<<<<<<<<<<<<<<<<<<<<<<
+Please only give me the answer based on the below Provided Isabelle Code and Provided Natural Language Inference strategy:
+
+Provided Isabelle Code:
+{isabelle_code}
+
+Provided Natural Language Inference strategy:
+{rough_inference}
+
+Answer:
+
+```
+proof -
+
+write the proof steps here
+
+qed
+```

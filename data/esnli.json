@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "premise": "A young boy is on a patio crowded with metal tables and chairs and 2 yellow umbrellas.",
+        "hypothesis": "A young boy is on a crowded patio.",
+        "label": "entailment",
+        "explanation": " On a crowded patio is a paraphrase of on a patio crowded with metal tables."
+    },
+    {
+        "id": 2,
+        "premise": "A group of numbered participants walk down the street together.",
+        "hypothesis": "A group walks down the street.",
+        "label": "entailment",
+        "explanation": " The numbered participants is simply more detail provided.  In both a group walks down the street, whether on not \"together\" is specified."
+    },
+    {
+        "id": 3,
+        "premise": "A smiling woman is playing the violin in front of a turquoise background.",
+        "hypothesis": "A woman is playing an instrument.",
+        "label": "entailment",
+        "explanation": " A violin is an instrument."
+    },
+    {
+        "id": 4,
+        "premise": "A lone, 2-3 year old blond child in a blue jacket is putting a small black plastic item in his mouth as he kneels on a waiting room couch pointed toward the back while looking at something or someone not in the room.",
+        "hypothesis": "The child is blonde.",
+        "label": "entailment",
+        "explanation": " A child is looking cute in blue jacket"
+    },
+    {
+        "id": 5,
+        "premise": "A football player in a blue 'Rams' jersey runs with a football on a field, as another player in a white jersey falls in an attempt to tackle him.",
+        "hypothesis": "The football players are on a field",
+        "label": "entailment",
+        "explanation": " A field is where players run and tackle."
+    },
+    {
+        "id": 6,
+        "premise": "A man tumbles as spectators watch at the University of Michigan.",
+        "hypothesis": "Spectators watch a man tumble.",
+        "label": "entailment",
+        "explanation": " A man tumbles as spectators watch is the same as spectators watch a man tumble."
+    },
+    {
+        "id": 7,
+        "premise": "A little girl is jumping over a yellow rope.",
+        "hypothesis": "A girl jumps rope.",
+        "label": "entailment",
+        "explanation": " jumping over a yellow rope is same as jumps rope."
+    },
+    {
+        "id": 8,
+        "premise": "The couple are wearing glasses intended for 3D movies.",
+        "hypothesis": "A couple are both wearing accessories.",
+        "label": "entailment",
+        "explanation": " glasses are wearable accessories"
+    },
+    {
+        "id": 9,
+        "premise": "Two children standing in the grass being sprayed by a hose.",
+        "hypothesis": "Children are getting hosed down on the grass",
+        "label": "entailment",
+        "explanation": " Sprayed by a hose means getting hosed down."
+    },
+    {
+        "id": 10,
+        "premise": "A woman holding a camera.",
+        "hypothesis": "A woman holds a camera in her hands.",
+        "label": "entailment",
+        "explanation": " holding a camera implies that it is in her hands."
+    },
+    {
+        "id": 11,
+        "premise": "A father and son kicking a ball at a park.",
+        "hypothesis": "The father and son kicked the ball.",
+        "label": "entailment",
+        "explanation": " If both father and son were kicking the ball, then you can assume that both father and son at one point kicked the ball."
+    },
+    {
+        "id": 12,
+        "premise": "One football player holding the ball is chased by another football player from the opposing team",
+        "hypothesis": "A football playing chasing the opposing teams player in a game.",
+        "label": "entailment",
+        "explanation": " Opposing teams are playing football."
+    },
+    {
+        "id": 13,
+        "premise": "Weekend barbecue with some fish.",
+        "hypothesis": "Weekend barbecue with some fish",
+        "label": "entailment",
+        "explanation": " Weekend barbecue with some fish is the same as weekend barbecue with some fish."
+    },
+    {
+        "id": 14,
+        "premise": "A male with brown clothing standing on the side of the street with his thumb out with a big bag on his back.",
+        "hypothesis": "a man is standing",
+        "label": "entailment",
+        "explanation": " Although sentence 1 is not proper English grammar, it can be inferred that the man is standing since it says a male ... standing..."
+    },
+    {
+        "id": 15,
+        "premise": "A man in a t-shirt is stirring something in a pot which is on a counter near a microwave oven.",
+        "hypothesis": "A man is stirring something near a microwave",
+        "label": "entailment",
+        "explanation": " If the pot is near the microwave then the man is near the microwave."
+    },
+    {
+        "id": 16,
+        "premise": "Two girls are sitting outside on the ground in front of a lake.",
+        "hypothesis": "two girls sit by a lake",
+        "label": "entailment",
+        "explanation": " Two girls sit by a lake is rephrase of two girls sitting outside on the ground in front of a lake."
+    },
+    {
+        "id": 17,
+        "premise": "One football player wearing an orange jersey and one wearing a white jersey are set at the starting line.",
+        "hypothesis": "Two football players wearing jerseys.",
+        "label": "entailment",
+        "explanation": " If one player is wearing an orange jersey and the other is wearing white, two players are wearing jerseys."
+    },
+    {
+        "id": 18,
+        "premise": "Javelin competition",
+        "hypothesis": "There is a competition.",
+        "label": "entailment",
+        "explanation": " There must be a competition for a Javelin competition to take place."
+    },
+    {
+        "id": 19,
+        "premise": "A woman in a purple sweater has an odd look on her face.",
+        "hypothesis": "A woman in a purple sweater has an odd look on her face.",
+        "label": "entailment",
+        "explanation": " The color purple gives the woman the look on her face."
+    },
+    {
+        "id": 20,
+        "premise": "An infant is in a crib and crying.",
+        "hypothesis": "A baby is unhappy.",
+        "label": "entailment",
+        "explanation": " If the infant is crying, it can be assumed that they are unhappy."
+    },
+    {
+        "id": 21,
+        "premise": "on a snowy day a man with a north face jacket walks through the crowded streets past a garbage truck",
+        "hypothesis": "A man walks down the street in winter.",
+        "label": "entailment",
+        "explanation": " Since the man is walking on a snowy day down a street, it is likely winter."
+    },
+    {
+        "id": 22,
+        "premise": "Two men in animal print pants sleep on a white bed.",
+        "hypothesis": "Two men are inside.",
+        "label": "entailment",
+        "explanation": " Two men sleeping on a white bed implies that they are inside."
+    },
+    {
+        "id": 23,
+        "premise": "A small ice cream stand with two people standing near it.",
+        "hypothesis": "Two people standing outside an ice cream stand.",
+        "label": "entailment",
+        "explanation": " If the people are near the stand they are outside it."
+    },
+    {
+        "id": 24,
+        "premise": "A cute couple at a club",
+        "hypothesis": "The couple is at a club.",
+        "label": "entailment",
+        "explanation": " A cute couple at a club means a couple is at a club."
+    },
+    {
+        "id": 25,
+        "premise": "Seven men wearing bright orange reflective vests are looking inside the door of a red train.",
+        "hypothesis": "A group of men are looking in a train.",
+        "label": "entailment",
+        "explanation": " Seven men are looking in a train."
+    },
+    {
+        "id": 26,
+        "premise": "A policeman is directing a crowd of people walking.",
+        "hypothesis": "A policeman is herding pedestrians.",
+        "label": "entailment",
+        "explanation": " directing a crowd of people is other expression of  herding pedestrians."
+    },
+    {
+        "id": 27,
+        "premise": "A old man sells hardware parts on a dirty sidewalk.",
+        "hypothesis": "The man is outside.",
+        "label": "entailment",
+        "explanation": " The man is on a dirty sidewalk. Sidewalks are found outdoors, therefore, the man is outside"
+    },
+    {
+        "id": 28,
+        "premise": "A woman in black framed glasses peruses a photo album while sitting in a red wicker chair.",
+        "hypothesis": "There is a lady with a book.",
+        "label": "entailment",
+        "explanation": " The lady is looking through a photo album which is a type of book."
+    },
+    {
+        "id": 29,
+        "premise": "A festival displays two men dressed in red makeup and costume, while an older man has cream on his face.",
+        "hypothesis": "Two men are dressed in makeup",
+        "label": "entailment",
+        "explanation": " In red makeup is a type of makeup."
+    },
+    {
+        "id": 30,
+        "premise": "A man is doing tricks on a skateboard.",
+        "hypothesis": "A human doing tricks",
+        "label": "entailment",
+        "explanation": " tricks on a skateboard is inferred as doing tricks"
+    },
+    {
+        "id": 31,
+        "premise": "A young child with dark shoulder length hair, in a yellow shirt and pink pants, is walking eating cheerios out of a ziplock bag.",
+        "hypothesis": "a child eats cheerios",
+        "label": "entailment",
+        "explanation": " young child with dark shoulder length hair, in a yellow shirt and pink pants, is walking eats cheerios out of a ziplock bag."
+    },
+    {
+        "id": 32,
+        "premise": "A man wearing lime green pants and shirt working on a sign.",
+        "hypothesis": "A man wearing pants and shirt working on a sign.",
+        "label": "entailment",
+        "explanation": " The lime green is simply more detail to describe the pants and shirt the man is wearing."
+    },
+    {
+        "id": 33,
+        "premise": "Three children in swimsuites are having fun outside near a white building.",
+        "hypothesis": "Some children outside having fun and playing.",
+        "label": "entailment",
+        "explanation": " Three children can be considered some children. Most kids are having fun when they are playing."
+    },
+    {
+        "id": 34,
+        "premise": "An Asian man in a t-shirt and sandals is smoking a pipe while sitting on a rock in front of a body of water.",
+        "hypothesis": "The man is asian.",
+        "label": "entailment",
+        "explanation": " Asian man is the same as the man is Asian."
+    },
+    {
+        "id": 35,
+        "premise": "A man wearing a red bicycle helmet talking on a cellphone with other people in the background.",
+        "hypothesis": "A man talks on a cellphone.",
+        "label": "entailment",
+        "explanation": " A man talking on a cellphone talks on a cellphone."
+    },
+    {
+        "id": 36,
+        "premise": "People walking down a busy city street in the winter.",
+        "hypothesis": "The street has a lot of people.",
+        "label": "entailment",
+        "explanation": " A busy city street implies the street having a lot of people."
+    },
+    {
+        "id": 37,
+        "premise": "A man wearing a mask with green dreadlocks and blue gloves stands in front of a woman in a brown cardigan.",
+        "hypothesis": "The man seems to be in disguise.",
+        "label": "entailment",
+        "explanation": " A mask and green dreadlocks implies that the man is wearing a disguise."
+    },
+    {
+        "id": 38,
+        "premise": "A couple being romantic under the sunset.",
+        "hypothesis": "People are enjoying sundown.",
+        "label": "entailment",
+        "explanation": " A couple consists of people. Sunset is sundown."
+    },
+    {
+        "id": 39,
+        "premise": "Two boys in green and white uniforms play basketball with two boys in blue and white uniforms.",
+        "hypothesis": "Boys are playing basketball.",
+        "label": "entailment",
+        "explanation": " Play means the boys are playing."
+    },
+    {
+        "id": 40,
+        "premise": "A young boy playing in a bubble playing in water.",
+        "hypothesis": "A person is getting wet.",
+        "label": "entailment",
+        "explanation": " A young boy is a type of person, and playing in water implies they'll get wet."
+    },
+    {
+        "id": 41,
+        "premise": "A sunny street with a red building, parked cars, and a man walking down the road.",
+        "hypothesis": "The sun is shining.",
+        "label": "entailment",
+        "explanation": " If the street is sunny, then the sun is shining."
+    },
+    {
+        "id": 42,
+        "premise": "A man and woman sit on a park bench with a set of newlyweds behind.",
+        "hypothesis": "People outside.",
+        "label": "entailment",
+        "explanation": " A MAN AND WOMAN ARE AT THE PARK"
+    },
+    {
+        "id": 43,
+        "premise": "A woman sits in a chair under a tree and plays an acoustic guitar.",
+        "hypothesis": "A woman plays an acoustic guitar under a tree.",
+        "label": "entailment",
+        "explanation": " The woman was sitting under the tree playing guitar."
+    },
+    {
+        "id": 44,
+        "premise": "Two men are in a boxing match where a man in the red boxing trunks is hitting the man in the purple trunks.",
+        "hypothesis": "The two men are involved in a physical activity.",
+        "label": "entailment",
+        "explanation": " hitting is a physical activity."
+    },
+    {
+        "id": 45,
+        "premise": "A woman in black clothing runs down the street barefoot next to two people on bicycles and a female runner.",
+        "hypothesis": "The woman is outdoors.",
+        "label": "entailment",
+        "explanation": " A woman running down the street is outdoors."
+    },
+    {
+        "id": 46,
+        "premise": "A boy in an orange shirt sells fruit from a street cart.",
+        "hypothesis": "A boy is a street vendor.",
+        "label": "entailment",
+        "explanation": " If the boy sells fruit from a street cart, he is a street vendor."
+    },
+    {
+        "id": 47,
+        "premise": "A woman in a blue star printed dress stands next to a grill with food on it.",
+        "hypothesis": "A woman in a starry dress is near a grill that is cooking.",
+        "label": "entailment",
+        "explanation": " Just because there is a grill with food on it does not mean the food is cooking."
+    },
+    {
+        "id": 48,
+        "premise": "Four people are bandaging a head wound.",
+        "hypothesis": "People are bandaging an injured head.",
+        "label": "entailment",
+        "explanation": " People are bandaging an injured head wound."
+    },
+    {
+        "id": 49,
+        "premise": "a group of people are wearing costumes",
+        "hypothesis": "People are wearing costumes.",
+        "label": "entailment",
+        "explanation": " A group means that there are people."
+    },
+    {
+        "id": 50,
+        "premise": "A man riding a dirt bike on a racetrack.",
+        "hypothesis": "A man is riding a dirt bike.",
+        "label": "entailment",
+        "explanation": " Both sentences state that a man is riding a dirt bike."
+    },
+    {
+        "id": 51,
+        "premise": "A man gives a speech at an ornate costume party.",
+        "hypothesis": "A man is public speaking.",
+        "label": "entailment",
+        "explanation": " If someone gives a speech that means that they are speaking."
+    },
+    {
+        "id": 52,
+        "premise": "A large group of people stand outside on a road while people on a higher level look on at them.",
+        "hypothesis": "One group of people are watching what another group does.",
+        "label": "entailment",
+        "explanation": " A group of people looking at another means that they are watching them."
+    },
+    {
+        "id": 53,
+        "premise": "An older South American woman is knitting colorful hand warmers and enjoying herself.",
+        "hypothesis": "A human knitting.",
+        "label": "entailment",
+        "explanation": " A woman is human."
+    },
+    {
+        "id": 54,
+        "premise": "A man in red and black about to strike a tennis ball.",
+        "hypothesis": "A man is playing tennis.",
+        "label": "entailment",
+        "explanation": " The man strikes the tennis ball because he is playing tennis."
+    },
+    {
+        "id": 55,
+        "premise": "Two race car drivers smile on a stage next to a female spokes model wearing a white dress and white and blue boots.",
+        "hypothesis": "Two race car drivers are on stage",
+        "label": "entailment",
+        "explanation": " Two race car drivers smile on a stage means two race car drivers are on stage as part of the total description"
+    },
+    {
+        "id": 56,
+        "premise": "Two tanned men wearing shorts are pulling a fishing net along a beach shore.",
+        "hypothesis": "The men are on the beach.",
+        "label": "entailment",
+        "explanation": " The men on the beach pulling a fishing net to get the fish from the ocean."
+    },
+    {
+        "id": 57,
+        "premise": "A maintenance worker walking past a statue.",
+        "hypothesis": "worker walking by a statue",
+        "label": "entailment",
+        "explanation": " A maintenance person walking past a statue."
+    },
+    {
+        "id": 58,
+        "premise": "A man in a green Celtic sleeveless jersey shirt and short stone washed jean shorts sitting and eating.",
+        "hypothesis": "The man is having a meal.",
+        "label": "entailment",
+        "explanation": " If the man is eating, he is having a meal."
+    },
+    {
+        "id": 59,
+        "premise": "Two women dressed for cold weather in jackets and gloves look at something on a cellphone screen.",
+        "hypothesis": "The women are near the cellphone.",
+        "label": "entailment",
+        "explanation": " the statement that two women are looking at something on a cellphone suggests a cellphone is near. it would be difficult for two women to look at something on a cellphone screen from far away."
+    },
+    {
+        "id": 60,
+        "premise": "A boy poses in karate form and uniform.",
+        "hypothesis": "a boy shows his uniform",
+        "label": "entailment",
+        "explanation": " A boy poses in karate form and uniform means the boy shows his uniform."
+    },
+    {
+        "id": 61,
+        "premise": "A woman in sunglasses making a pouting face while eating seafood.",
+        "hypothesis": "A woman is eating.",
+        "label": "entailment",
+        "explanation": " Seafood is a form a food that the woman is eating."
+    },
+    {
+        "id": 62,
+        "premise": "A young girl throws sand toward the ocean.",
+        "hypothesis": "The girl is tossing sand into the ocean",
+        "label": "entailment",
+        "explanation": " \"The girl is tossing sand into the ocean\" precises that the girl throwing the sand is the same tossing the sand"
+    },
+    {
+        "id": 63,
+        "premise": "older men talking and standing around.",
+        "hypothesis": "The older men are visiting with each other.",
+        "label": "entailment",
+        "explanation": " Visiting each other involves talking and standing around between the older men."
+    },
+    {
+        "id": 64,
+        "premise": "People are waiting in line by a food vendor.",
+        "hypothesis": "People stand in line for food.",
+        "label": "entailment",
+        "explanation": " A food vendor serves food."
+    },
+    {
+        "id": 65,
+        "premise": "There is one person lying in a large, green field.",
+        "hypothesis": "There is a person alone in a field outdoors.",
+        "label": "entailment",
+        "explanation": " one person denotes a person alone"
+    },
+    {
+        "id": 66,
+        "premise": "A male bartender dressed in all black with his sleeves rolled up to elbow height making a drink in a martini glass.",
+        "hypothesis": "A person in black",
+        "label": "entailment",
+        "explanation": " A bartender, who is a person, is wearing black."
+    },
+    {
+        "id": 67,
+        "premise": "Two older males sitting together on a river boat tour.",
+        "hypothesis": "Two males sitting together on a boat",
+        "label": "entailment",
+        "explanation": " In order to take a boat tour, the two males must be on a boat."
+    },
+    {
+        "id": 68,
+        "premise": "A man is on the back of his friend.",
+        "hypothesis": "A man is holding his friend.",
+        "label": "entailment",
+        "explanation": " As the man is at back ,so she is holding his friend."
+    },
+    {
+        "id": 69,
+        "premise": "A girl carries large sacks across a backdrop of foliage.",
+        "hypothesis": "a girl carrying sacks",
+        "label": "entailment",
+        "explanation": " \"Girl carrying sacks\" rephrases \" girl carries sacks\""
+    },
+    {
+        "id": 70,
+        "premise": "A man and a woman stare at the skyline.",
+        "hypothesis": "The two people are looking outside.",
+        "label": "entailment",
+        "explanation": " A man and a woman are two people. \"Looking outside\" is a rephrasing of \"stare at the skyline.\""
+    },
+    {
+        "id": 71,
+        "premise": "a boy walks through the water.",
+        "hypothesis": "A boy walks on water.",
+        "label": "entailment",
+        "explanation": " If he is walking though the water then the water must be shallow enough for him to walk, and then it could be said he is walking on the water."
+    },
+    {
+        "id": 72,
+        "premise": "Two women are wet while holding hands with a long building and buses in the background.",
+        "hypothesis": "Women are in the city.",
+        "label": "entailment",
+        "explanation": " There are women because there are two women."
+    },
+    {
+        "id": 73,
+        "premise": "A group of people on the beach with cameras.",
+        "hypothesis": "People are on a beach.",
+        "label": "entailment",
+        "explanation": " Group of people are people."
+    },
+    {
+        "id": 74,
+        "premise": "A man in a red sweater holds a child on top of his shoulders.",
+        "hypothesis": "The man is touching the child.",
+        "label": "entailment",
+        "explanation": " The man is touching the child because he holds the child."
+    },
+    {
+        "id": 75,
+        "premise": "Military woman using a microscope.",
+        "hypothesis": "A woman using a microscope.",
+        "label": "entailment",
+        "explanation": " military woman can be inferred as woman."
+    },
+    {
+        "id": 76,
+        "premise": "Two boys wearing colorful winter hats and dark coats are riding bikes and smiling at each other.",
+        "hypothesis": "Two boys are riding bikes.",
+        "label": "entailment",
+        "explanation": " Two boys while wearing winter hats and coats are riding a bike"
+    },
+    {
+        "id": 77,
+        "premise": "A golden-colored dog, with his eyes alert, holds a brightly colored tennis ball in his mouth.",
+        "hypothesis": "The dog is light colored",
+        "label": "entailment",
+        "explanation": " The colour gold is a light one, thus a golden-colored dog is a light-colored dog."
+    },
+    {
+        "id": 78,
+        "premise": "Group of men sitting at a table turn to have their picture taken.",
+        "hypothesis": "The group of men are posing for a picture.",
+        "label": "entailment",
+        "explanation": " Posing for a picture and having a picture taken are the same."
+    },
+    {
+        "id": 79,
+        "premise": "People getting ready to cut a birthday cake.",
+        "hypothesis": "they got ready to cut the cake",
+        "label": "entailment",
+        "explanation": " \"getting ready to cut a birthday cake\" is a very similar phrasing to \"got ready to cut the cake.\""
+    },
+    {
+        "id": 80,
+        "premise": "A man wearing a tan hat and shirt, an orange safety vest, and dark glasses gestures towards a nearby car.",
+        "hypothesis": "He gestures towards a nearby car.",
+        "label": "entailment",
+        "explanation": " He is a man."
+    },
+    {
+        "id": 81,
+        "premise": "A person on a bicycle wears a helmet and jumps, soaring over the ground in front of a skyline and lake.",
+        "hypothesis": "A person outside with a bike.",
+        "label": "entailment",
+        "explanation": " Bike is the short word for bicycle, and the person is outside if the person is soaring over the ground."
+    },
+    {
+        "id": 82,
+        "premise": "A woman in a red hat waiting in line.",
+        "hypothesis": "A woman stands in a line.",
+        "label": "entailment",
+        "explanation": " Waiting in line is a paraphrase of stands in a line, and a woman in a red hat is a type of woman."
+    },
+    {
+        "id": 83,
+        "premise": "A man in a blue t-shirt is watching two women sitting at a table in the kitchen baking.",
+        "hypothesis": "A man watches to women  in the kitchen",
+        "label": "entailment",
+        "explanation": " \"In the kitchen\" is a rephrasing of \"sitting at a table in the kitchen baking.\""
+    },
+    {
+        "id": 84,
+        "premise": "Three Indian boys in shorts play with one another.",
+        "hypothesis": "Three boys.",
+        "label": "entailment",
+        "explanation": " There are three boys"
+    },
+    {
+        "id": 85,
+        "premise": "Sidewalk flower cart vendor.",
+        "hypothesis": "Flower seller on sidewalk.",
+        "label": "entailment",
+        "explanation": " Vendor is a seller"
+    },
+    {
+        "id": 86,
+        "premise": "There are three woman conversing at a table with drinks.",
+        "hypothesis": "Women are talking",
+        "label": "entailment",
+        "explanation": " The women are talking because they are conversing."
+    },
+    {
+        "id": 87,
+        "premise": "A smiling young girl with blond-hair, blue eyes, and a pink shirt, is holding a yellow flower towards the viewer outside.",
+        "hypothesis": "A smiling young girl with blond-hair",
+        "label": "entailment",
+        "explanation": " A smiling young girl can also be holding a yellow flower."
+    },
+    {
+        "id": 88,
+        "premise": "Gymnast does a flip on blue flooring.",
+        "hypothesis": "A gymnast displays their skills with a flip",
+        "label": "entailment",
+        "explanation": " Displaying skills with a flip is a rephrasing of \"does a flip.\""
+    },
+    {
+        "id": 89,
+        "premise": "Mountain biking in a forest during the early fall.",
+        "hypothesis": "Bicycling through the woods in the Autumn.",
+        "label": "entailment",
+        "explanation": " Mountain biking uses bikes and can thus be generically called bicycling. The woods is another word for forest. Autumn is another word for the season of fall."
+    },
+    {
+        "id": 90,
+        "premise": "Three workers bent over pulling grass.",
+        "hypothesis": "Three workers bent over",
+        "label": "entailment",
+        "explanation": " Workers are pulling grass while they bent over."
+    },
+    {
+        "id": 91,
+        "premise": "Several children playing outside",
+        "hypothesis": "There are children playing.",
+        "label": "entailment",
+        "explanation": " The children are playing, the second sentence only removed the detail of setting."
+    },
+    {
+        "id": 92,
+        "premise": "Three glass elevators with people inside of them.",
+        "hypothesis": "tourists looking out of glass elevators.",
+        "label": "entailment",
+        "explanation": " Tourists are people, although people are not always tourists; glass is usually transparent, so that tourists can look through it and elevators made of glass are meant for people to look through, to show of the view."
+    },
+    {
+        "id": 93,
+        "premise": "Old woman chasing away two lambs with a broom.",
+        "hypothesis": "There is a woman and some animals.",
+        "label": "entailment",
+        "explanation": " Two lambs are animals, and the woman is chasing them away so she must be close to the animals. That means that there is a woman and some animals."
+    },
+    {
+        "id": 94,
+        "premise": "A little boy in a bathrobe sits on a bench near the shower in a bathroom.",
+        "hypothesis": "The boy is inside of the building.",
+        "label": "entailment",
+        "explanation": " Little boy is a boy and bathroom implies inside."
+    },
+    {
+        "id": 95,
+        "premise": "A man and a woman sit on a deck under a blue sky that is about to be overtaken by tumultuous clouds.",
+        "hypothesis": "There are many clouds in the blue sky.",
+        "label": "entailment",
+        "explanation": " If a blue sky is about to overtaken by tumultuous clouds then as the clouds move there are many clouds in the blue sky."
+    },
+    {
+        "id": 96,
+        "premise": "Children and adults swim in large pool with red staircase.",
+        "hypothesis": "A group of people are swimming.",
+        "label": "entailment",
+        "explanation": " Both children and adults are people."
+    },
+    {
+        "id": 97,
+        "premise": "a woman and her dog sitting at an outdoor cafe table",
+        "hypothesis": "A woman and her pet sit outside at a restaurant.",
+        "label": "entailment",
+        "explanation": " outdoor cafe table is inferred as  outside at a restaurant."
+    },
+    {
+        "id": 98,
+        "premise": "A young man wearing goggles, is jumping out of a pool, splashing water everywhere.",
+        "hypothesis": "Man jumping out of a pool.",
+        "label": "entailment",
+        "explanation": " There is both a man jumping out of a pool."
+    },
+    {
+        "id": 99,
+        "premise": "A dog running on grass",
+        "hypothesis": "A dog is on the grass.",
+        "label": "entailment",
+        "explanation": " A dog could  also be running on grass."
+    },
+    {
+        "id": 100,
+        "premise": "Young boy in swimsuit plays in sprinklers outside",
+        "hypothesis": "A child outside in water.",
+        "label": "entailment",
+        "explanation": " A young boy is a child; sprinklers involve water and the sprinklers are outside."
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "question_label": "3M1CVSFP604YHG9BT6U3YH5SKT5QAA",
+        "Question": "What helps keep people from getting sick? (A) virus (B) sweating (C) bacteria (D) sensory neurons (E) Exfoliation (F) layers of fat (G) trees (H) Memory cells",
+        "Correct answer": "H",
+        "explanation": "Active immunity results when an immune response to a pathogen produces memory cells.\nPeople with weaker immune systems are more likely to get sick from contaminated foods.",
+        "id": 1,
+        "premise": "none",
+        "hypothesis": "Memory cells help keep people from getting sick."
+    },
+    {
+        "question_label": "3K772S5NP8AOU0RKQL9VLM3IDLTHEL",
+        "Question": "what are found in the salt water of the ocean? (A) elephants (B) sensory neurons (C) bacteria (D) animals (E) freshwater (F) sea tigers (G) fossil fuels (H) lake trout",
+        "Correct answer": "F",
+        "explanation": "Marine biomes are found in the salt water of the ocean.\nAnother animal that lives within the Marine Biome is a sea tiger.",
+        "id": 2,
+        "premise": "none",
+        "hypothesis": "Sea tigers are found in the salt water of the ocean."
+    },
+    {
+        "question_label": "3WS1NTTKEYB5PELKNOMGXCP1GC2F0M",
+        "Question": "What can help people feel less short of breath? (A) Electric fan (B) prolactin release (C) sensory neurons (D) evaporation (E) exercise (F) kinetic energy (G) sweating (H) The atmosphere",
+        "Correct answer": "A",
+        "explanation": "the vanes rotating in an electric fan causes air to move\nAir moving through a room helps a person to feel less short of breath.",
+        "id": 3,
+        "premise": "none",
+        "hypothesis": "An electric fan can help people feel less short of breath."
+    },
+    {
+        "question_label": "3NVC2EB65QY76X1CB1WNOVUOCFGY3K",
+        "Question": "What do ancathostega have four of? (A) Eggs (B) feet (C) Wings (D) alveoli (E) Lungs (F) ovaries (G) rings (H) Limbs",
+        "Correct answer": "H",
+        "explanation": "Amphibians are the first true tetrapods, or vertebrates with four limbs.\nAncathostega is one of the earliest tetrapods found, and by far the most complete.",
+        "id": 4,
+        "premise": "none",
+        "hypothesis": "Ancathostega have four limbs."
+    },
+    {
+        "question_label": "3FDJT1UU747F07ZZL5JPUKDX5FM5KP",
+        "Question": "What can cause cell walls to relax? (A) Decreased light intensity (B) Something coming from a gland (C) matter vibrating (D) Temperature changing (E) Water vapor cooling (F) the Earth being tilted (G) raising their temperature (H) heat produced",
+        "Correct answer": "A",
+        "explanation": "Dilation occurs when cell walls relax.\nConversely, a decrease in light intensity causes dilation of the pupils.",
+        "id": 5,
+        "premise": "none",
+        "hypothesis": "Decreased light intensity can cause cell walls to relax."
+    },
+    {
+        "question_label": "35GCEFQ6I5N7BNBH7NY6223QI9L3ZH",
+        "Question": "What do stem cells form? (A) embryos (B) alveoli (C) Grow well (D) PDAs (E) alleles (F) Organs (G) grow (H) fusion",
+        "Correct answer": "F",
+        "explanation": "Cells are organized into tissues, and tissues form organs.\nStem cells are cells that can become many tissues and organs.",
+        "id": 6,
+        "premise": "none",
+        "hypothesis": "Stem cells form organs."
+    },
+    {
+        "question_label": "39K0FND3AHE7W1BJ1DNMH8LN8SUAMR",
+        "Question": "Where might you find tectonic plates being pushed together? (A) coastlines (B) San Francisco (C) mouth of rivers (D) germany (E) Movement (F) a hydraulic system (G) permineralization (H) near the shoreline",
+        "Correct answer": "B",
+        "explanation": "tectonic plates being pushed together causes earthquakes\nFor example, an earthquake hits San Francisco.",
+        "id": 7,
+        "premise": "none",
+        "hypothesis": "You might find tectonic plates being pushed together in San Francisco."
+    },
+    {
+        "question_label": "3HHRAGRYX84HRLMQMNOZDHZ8BRW9O7",
+        "Question": "Water and time can work together to create what? (A) a wave (B) canyon (C) matter (D) heat (E) soils (F) mercury (G) iron (H) desert",
+        "Correct answer": "B",
+        "explanation": "most canyons are formed by flowing rivers through erosion over long periods of time\nErosion is the work of wind, water, and time.",
+        "id": 8,
+        "premise": "none",
+        "hypothesis": "Water and time can work together to create a canyon."
+    },
+    {
+        "question_label": "3AUQQEL7U5SULB7AN3RKFYSNQXDV0H",
+        "Question": "How can you prevent harm caused by flea bites? (A) Bathing your dogs (B) Using repellent (C) Eating healthier (D) Endocrine system (E) prolactin release (F) an external framework (G) focusing a lens (H) Drinking water",
+        "Correct answer": "B",
+        "explanation": "insect bites cause harm to living things\nInsect repellents are used against flea bites.",
+        "id": 9,
+        "premise": "none",
+        "hypothesis": "You can prevent harm caused by flea bites by using repellent."
+    },
+    {
+        "question_label": "3LKC68YZ3A2S3HZYFYYRR17JUM1OW5",
+        "Question": "What helps plants grow? (A) Glucose (B) Enzymes (C) Roots (D) Cold temperatures (E) Bees (F) RNA (G) Confined Spaces (H) Shade",
+        "Correct answer": "C",
+        "explanation": "a plant requires water to grow\nWater is absorbed by a plant's roots.",
+        "id": 10,
+        "premise": "none",
+        "hypothesis": "Plants grow with the help of roots."
+    },
+    {
+        "question_label": "37Q970SNZE7E08BOPRQFIGRQXH71SW",
+        "Question": "What happens when the muscle is stretched while fibers are shorter? (A) rest (B) decreases (C) Broken bone (D) Injury (E) abrasion (F) forces (G) Warmth (H) Muscle repair",
+        "Correct answer": "D",
+        "explanation": "Muscle contraction occurs when muscle fibers get shorter.\nInjury occurs as the muscle is being stretched while the muscle fibers are being contracted.",
+        "id": 11,
+        "premise": "none",
+        "hypothesis": "When the muscle is stretched while fibers are shorter, injury happens."
+    },
+    {
+        "question_label": "3A1COHJ8NJU7LZHTDINVTC7WFPDH8V",
+        "Question": "What is burning ethanol used to produce? (A) heat energy (B) rays or beams (C) adding heat (D) kinetic energy (E) energy (F) carbon dioxide (G) electricity (H) engines",
+        "Correct answer": "G",
+        "explanation": "biofuel is used to produce electricity by burning\nEthanol is the most widely used biofuel today.",
+        "id": 12,
+        "premise": "none",
+        "hypothesis": "Burning ethanol is used to produce electricity."
+    },
+    {
+        "question_label": "3K5TEWLKGVA5S6OQRTGQL2SJE8ZVIH",
+        "Question": "what do molecules of tRNA bring to the ribosome? (A) food (B) Energy. (C) Joules (D) Energy (E) h2o (F) proteins (G) nucleus (H) electrons",
+        "Correct answer": "F",
+        "explanation": "Molecules of tRNA bring amino acids to the ribosome in the correct sequence.\nAmino acids are proteins.",
+        "id": 13,
+        "premise": "none",
+        "hypothesis": "Molecules of tRNA bring proteins to the ribosome."
+    },
+    {
+        "question_label": "3QEMNNSB2XYM9578HHCZORW306FD76",
+        "Question": "What are capable of dividing into two parts? (A) epidermis and dermis (B) colors of the spectrum (C) rays or beams (D) bacteria (E) fissile isotopes (F) critical organs (G) objects that have mass (H) the body's largest organ",
+        "Correct answer": "E",
+        "explanation": "Fission takes place when an animal divides into two parts.\nAn isotope capable of undergoing fission is called a fissile isotope .",
+        "id": 14,
+        "premise": "none",
+        "hypothesis": "Fissile isotopes are capable of dividing into two parts."
+    },
+    {
+        "question_label": "3PDJHANYK5FKHLY5K3QX9YB5WIUH6F",
+        "Question": "what happens to chemical messengers for them to cause depression (A) faulty (B) infected (C) Pesticides (D) cigarettes (E) spent (F) imbalanced (G) interact (H) sweating",
+        "Correct answer": "F",
+        "explanation": "Hormones are chemical messengers that control many body functions.\nHormonal Imbalance Hormonal imbalance can cause depression.",
+        "id": 15,
+        "premise": "none",
+        "hypothesis": "Chemical messengers for them to cause depression are imbalanced."
+    },
+    {
+        "question_label": "3TE22NPXPBBCQM6WM8DZIBINXJZ44O",
+        "Question": "what do some viruses have a coating of? (A) chromosomes (B) calories (C) aqueous solution (D) bioaerosols (E) acetic acid (F) phospholipids (G) DNA (H) a cuticle",
+        "Correct answer": "F",
+        "explanation": "Some viruses have an envelope of phospholipids and proteins.\nProteins are sometimes coats of a virus.",
+        "id": 16,
+        "premise": "none",
+        "hypothesis": "Some viruses have a coating of phospholipids."
+    },
+    {
+        "question_label": "3CTOC39K37PZCR70RDYARPRG4EXJ7M",
+        "Question": "What can feed at more than one trophic level? (A) all carnivores (B) producers (C) people (D) animals (E) chickens (F) grass (G) humans (H) omnivores",
+        "Correct answer": "H",
+        "explanation": "Many consumers feed at more than one trophic level.\nPlants are producers are consumers are omnivores .",
+        "id": 17,
+        "premise": "none",
+        "hypothesis": "Omnivores can feed at more than one trophic level."
+    },
+    {
+        "question_label": "3KGTPGBS6XK146LOX0LT20JJBRXU2S",
+        "Question": "A force of water which moves can slowly dissolve carbon in what? (A) sediment (B) an area swollen with pus (C) precipitation (D) loose soil (E) rocky clouds (F) water forces (G) sedimentary rock (H) small bricks",
+        "Correct answer": "G",
+        "explanation": "Flowing water can slowly dissolve carbon in sedimentary rock.\nWater which moves or flows is a force.",
+        "id": 18,
+        "premise": "none",
+        "hypothesis": "A force of water which moves can slowly dissolve carbon in sedimentary rock."
+    },
+    {
+        "question_label": "3SKRO2GZ71QGCPYGKIHDRU0GHU41K4",
+        "Question": "Animals do what with sounds, chemicals or visual cues? (A) open the floor (B) to move people (C) share brains (D) trade ideals (E) Release energy (F) exchange information (G) reusing things (H) mate with females",
+        "Correct answer": "F",
+        "explanation": "Animals can communicate with sounds, chemicals, or visual cues.\nCommunication is the exchange of information, ideas and emotions.",
+        "id": 19,
+        "premise": "none",
+        "hypothesis": "Animals exchange information with sounds, chemicals or visual cues."
+    },
+    {
+        "question_label": "304SM51WA33FD6TGROJ4OS4ZWW8SBZ",
+        "Question": "what is unique to mammals? (A) fur (B) magnetism (C) eyes (D) scales (E) hair (F) skin (G) wool (H) cats",
+        "Correct answer": "A",
+        "explanation": "Hair is a fiber that is found only in mammals.\nAll mammals have fur or hair.",
+        "id": 20,
+        "premise": "none",
+        "hypothesis": "Fur is unique to mammals."
+    },
+    {
+        "question_label": "3GNCZX450IMDH48WTTFEYCFIGL0APX",
+        "Question": "What kind of animal would be an endothermic tetrapod vertebrate? (A) animals in the class aves (B) barks and snarls (C) passenger pigeons (D) Something that is self-aware (E) Generating heat (F) retaining heat (G) absorb light energy (H) it keeps an organism warm",
+        "Correct answer": "A",
+        "explanation": "Birds are endothermic tetrapod vertebrates.\nClass Aves is for the birds, literally.",
+        "id": 21,
+        "premise": "none",
+        "hypothesis": "An endothermic tetrapod vertebrate would be animals in the class aves."
+    },
+    {
+        "question_label": "3YOH7BII096WY1EERW12YI7W6A0VK0",
+        "Question": "What genes promote the division of cells with mutation? (A) oncogenes (B) resistance (C) Chlorophyll (D) Leptospirosis (E) acetic acid (F) Conifers (G) allow growth (H) Most plants",
+        "Correct answer": "A",
+        "explanation": "Oncogenes promote the division of cells with damaged DNA.\nDNA damage is called mutation.",
+        "id": 22,
+        "premise": "none",
+        "hypothesis": "Oncogenes promote the division of cells with mutation."
+    },
+    {
+        "question_label": "3M0NZ3JDP1XAP2YLL6MZHZ1AWPI5ZJ",
+        "Question": "What can be passed down through the males? (A) Electrical energy (B) cancer treatments (C) pollen (D) cloning (E) kinetic energy (F) cancer genes (G) genetic testing (H) anemia",
+        "Correct answer": "F",
+        "explanation": "Cancer genes can be inherited.\nInheritance is passed down through the males.",
+        "id": 23,
+        "premise": "none",
+        "hypothesis": "Cancer genes can be passed down through the males."
+    },
+    {
+        "question_label": "3QUO65DNQUNFBDATKYJQ9DMMBZDUON",
+        "Question": "a part of birds where what is dominant to curly helps them fly and provides insulation? (A) Animal fur (B) bioaerosols (C) fur and fat (D) Vanes (E) Epidermis (F) sweating (G) staying warm (H) straight",
+        "Correct answer": "H",
+        "explanation": "Feathers help birds fly and provide insulation.\nStraight feathers are dominant to curly feathers .",
+        "id": 24,
+        "premise": "none",
+        "hypothesis": "A part of birds where straight is dominant to curly helps them fly and provides insulation."
+    },
+    {
+        "question_label": "3X73LLYYQ1DSO64XJKCEB9XRR1TNHR",
+        "Question": "Viruses first infect, then they release into the host by doing what? (A) Cooking (B) kill them (C) harm them (D) lysing (E) illness (F) fever (G) migrate (H) propagate",
+        "Correct answer": "D",
+        "explanation": "Viruses infect and live inside the cells of living organisms.\nIf the virus is nonenveloped it is released by lysing the host cell.",
+        "id": 25,
+        "premise": "none",
+        "hypothesis": "Viruses first infect, then they release into the host by lysing."
+    },
+    {
+        "question_label": "3IX2EGZR7BI9UARF0RWGW6IG5PLJRD",
+        "Question": "What does plant plankton need for food? (A) Sunlight (B) chemicals (C) glucose (D) warmth (E) Bodily water (F) photons (G) The Sun (H) Energy",
+        "Correct answer": "A",
+        "explanation": "Phytoplankton are bacteria and algae that use sunlight to make food.\nPhytoplankton, or plant plankton, needs sunlight to live, the same way plants on land do.",
+        "id": 26,
+        "premise": "none",
+        "hypothesis": "Plant plankton need sunlight for food."
+    },
+    {
+        "question_label": "31QTRG6Q2TCEDM6Z9ZTU1YXPGG0PYO",
+        "Question": "What causes water vapor to condense? (A) water vapor exploding (B) water vapor heating up (C) water vapor disappearing (D) circulatory systems (E) aqueous solution (F) Heat energy (G) water vapor chilling (H) Evaporation",
+        "Correct answer": "G",
+        "explanation": "water vapor cooling causes that water vapor to condense\nAll carcasses are chilled with cool air for 48 hours.",
+        "id": 27,
+        "premise": "none",
+        "hypothesis": "Water vapor chilling causes water vapor to condense."
+    },
+    {
+        "question_label": "3LPW2N6LKT1T334BFJNR07MVVD4U5X",
+        "Question": "What do all animals need? (A) oxygen (B) nutrients (C) Energy (D) sunlight (E) dirt (F) carbon dioxide (G) Energy. (H) water",
+        "Correct answer": "B",
+        "explanation": "All animals are heterotrophs.\nProteins are an essential nutrient for heterotrophs .",
+        "id": 28,
+        "premise": "none",
+        "hypothesis": "All animals need nutrients."
+    },
+    {
+        "question_label": "3YWRV122CSYCQLNDDHUUCRWM9MOU8W",
+        "Question": "A cactus stem is used for storing what? (A) roots (B) rain (C) cactus seeds (D) CO2 (E) RNA (F) calories (G) H20 (H) h2o",
+        "Correct answer": "G",
+        "explanation": "a cactus stem is used for storing water\nH20 Bottled water was generally consumed last year.",
+        "id": 29,
+        "premise": "none",
+        "hypothesis": "A cactus stem is used for storing H20."
+    },
+    {
+        "question_label": "3TVSS0C0E1Z8G946BFKQLBD6YW2TWP",
+        "Question": "what does friendship usually precede? (A) competition (B) the body's largest organ (C) A Greek letter (D) birth (E) death (F) attracting a mate (G) firm hugs (H) h2o",
+        "Correct answer": "F",
+        "explanation": "Courtship is behavior that is intended to attract a mate.\nFriendship usually precedes courtship, and courtship, marriage.",
+        "id": 30,
+        "premise": "none",
+        "hypothesis": "Friendship usually precedes attracting a mate."
+    },
+    {
+        "question_label": "3FFJ6VRIL1NPZ5NAOWS1092TNJ7I0E",
+        "Question": "What is one way an object's shape can be changed? (A) by indirect light (B) reflecting light (C) talking to it (D) alchemy (E) Through play (F) permineralization (G) removing material (H) stasis",
+        "Correct answer": "G",
+        "explanation": "sharpening an object causes that object to change shape\nAn electric sharpener removes too much metal and often causes waves.",
+        "id": 31,
+        "premise": "none",
+        "hypothesis": "One way an object's shape can be changed is by removing material."
+    },
+    {
+        "question_label": "3IAEQB9FMEJ1ZK89PPKBG7VKPS6WDV",
+        "Question": "What causes days to change? (A) Space travel (B) recovery time from fatigue (C) Earth orbiting the Sun (D) sunlight (E) earthquakes (F) Solar energy (G) prolonged thirst (H) global warming",
+        "Correct answer": "C",
+        "explanation": "Earth orbiting the Sun causes seasons to change\nDays and hours change seasonally.",
+        "id": 32,
+        "premise": "none",
+        "hypothesis": "Earth orbiting the Sun causes days to change."
+    },
+    {
+        "question_label": "378XPAWRUCCL0ILSGYPUPFE6QUOAIA",
+        "Question": "The gravitational pull of the moon on Earth's what cause flooding and damaged homes? (A) Annelids (B) erosion (C) streams (D) oceans (E) rivers (F) Roads (G) wind (H) two",
+        "Correct answer": "D",
+        "explanation": "the gravitational pull of the Moon on Earth 's oceans causes the tides\nTorrential rain and high tides caused flooding in coastal areas and damaged beachfront homes.",
+        "id": 33,
+        "premise": "none",
+        "hypothesis": "The gravitational pull of the moon on Earth's oceans cause flooding and damaged homes."
+    },
+    {
+        "question_label": "30BXRYBRP4WIB0DBBL317SAIONRHWU",
+        "Question": "what can scraping oneself on a contaminated object cause? (A) disease (B) h2o formation (C) death (D) Injury (E) rabies (F) pregnancy (G) hair growth (H) deadly",
+        "Correct answer": "C",
+        "explanation": "scraping oneself on a contaminated object may cause infection\nInfection is a common cause of death.",
+        "id": 34,
+        "premise": "none",
+        "hypothesis": "Scraping oneself on a contaminated object can cause death."
+    },
+    {
+        "question_label": "3EKVH9QMEY3FN4A2B5V4S0FVR2S2D4",
+        "Question": "What can help form and enrich soil? (A) Most plants (B) whales (C) the Sun (D) decomposers (E) swamp vegetation (F) shrub beds (G) phytoplankton (H) fossil fuels",
+        "Correct answer": "D",
+        "explanation": "Earthworms are important deposit feeders that help form and enrich soil.\nEarthworms are perhaps the most familiar decomposer.",
+        "id": 35,
+        "premise": "none",
+        "hypothesis": "Decomposers can help form and enrich soil."
+    },
+    {
+        "question_label": "3C2NJ6JBKAGO9G1F0Z97O5RP2N1N29",
+        "Question": "antigens are found on cancer cells and the cells of transplanted what? (A) h2o (B) kidneys (C) genetics (D) operation (E) lungs (F) the skin (G) epidermal (H) alveoli",
+        "Correct answer": "B",
+        "explanation": "Antigens are found on cancer cells and the cells of transplanted organs.\nExamples of animal organs are kidneys and hearts.",
+        "id": 36,
+        "premise": "none",
+        "hypothesis": "Antigens are found on cancer cells and the cells of transplanted kidneys."
+    },
+    {
+        "question_label": "3L2IS5HSFAHXTSAHJJJDUOMHJZHNUS",
+        "Question": "What can power lasers? (A) photons (B) rays or beams (C) rocks (D) heat energy (E) solar panels (F) nothing (G) energy (H) air",
+        "Correct answer": "E",
+        "explanation": "a solar panel converts sunlight into electricity\nLasers are powered by electricity.",
+        "id": 37,
+        "premise": "none",
+        "hypothesis": "Solar panels can power lasers."
+    },
+    {
+        "question_label": "3RGU30DZTA7IXUENVJ0ZA7O631GJML",
+        "Question": "How do some insects communicate? (A) sound (B) sensory neurons (C) Decibels (D) electronic waves (E) progesterone (F) Vibrates (G) pheromones (H) radio waves",
+        "Correct answer": "G",
+        "explanation": "Ants communicate with chemicals called pheromones.\nAnts are of extreme importance in the insect world.",
+        "id": 38,
+        "premise": "none",
+        "hypothesis": "Some insects communicate by pheromones."
+    },
+    {
+        "question_label": "3SKEMFQBZ34YNPI1J3QS64NOXAN8KU",
+        "Question": "Alerting devices inform a person when they convert electrical energy into what (A) sound (B) batteries (C) air (D) heat (E) energy (F) action (G) photons (H) waves",
+        "Correct answer": "A",
+        "explanation": "a doorbell converts electrical energy into sound\nAlerting devices inform a person when the doorbell rings, alarm clock sounds, or telephone rings.",
+        "id": 39,
+        "premise": "none",
+        "hypothesis": "Alerting devices inform a person when they convert electrical energy into sound."
+    },
+    {
+        "question_label": "3Q8GYXHFEP1XH9NBTS2R610PM1HC5Z",
+        "Question": "What do some light bulbs convert other energy into? (A) water vapor (B) basic building blocks of life (C) gasoline (D) light and heat energy (E) an electron microscope (F) plasma (G) heat or cold (H) hydrogen and oxygen",
+        "Correct answer": "D",
+        "explanation": "some light bulbs convert electricity into light and heat energy\nElectrical energy is also energy.",
+        "id": 40,
+        "premise": "none",
+        "hypothesis": "Some light bulbs convert other energy into light and heat energy."
+    },
+    {
+        "question_label": "3NXNZ5RS1AWA6FUR517X2VDD6XT97Z",
+        "Question": "Earth 's tilt on its rotating axis causes changes in what (A) weather (B) sunlight (C) Joules (D) wind (E) heat (F) climate (G) energy (H) earth",
+        "Correct answer": "A",
+        "explanation": "Earth 's tilt on its rotating axis causes seasons to change\nWeather changes from season to season.",
+        "id": 41,
+        "premise": "none",
+        "hypothesis": "Earth's tilt on its rotating axis causes changes in weather."
+    },
+    {
+        "question_label": "388U7OUMF702S4QTEJMAE13K6NN0R9",
+        "Question": "The group of bipedal dinosaurs that included Dromaeosaurs eventually evolved into: (A) insects (B) animals (C) mammals (D) running (E) Man (F) alpacas (G) genus (H) birds",
+        "Correct answer": "H",
+        "explanation": "Birds evolved from a group of bipedal dinosaurs called theropods.\nDromaeosaurs are part of the theropod group of dinosaurs.",
+        "id": 42,
+        "premise": "none",
+        "hypothesis": "The group of bipedal dinosaurs that included Dromaeosaurs eventually evolved into birds."
+    },
+    {
+        "question_label": "34HJIJKLP5VBKZPB64EMR1I0L674VS",
+        "Question": "What are one form of changing from a gas into a liquid by reducing heat energy (A) pressure cooking (B) sweating (C) tire pressure (D) cycles (E) Clouds (F) scuba diving (G) boiling (H) rain",
+        "Correct answer": "E",
+        "explanation": "condensing means changing from a gas into a liquid by reducing heat energy\nClouds are one form of condensation.",
+        "id": 43,
+        "premise": "none",
+        "hypothesis": "One form of changing from a gas into a liquid by reducing heat energy is clouds."
+    },
+    {
+        "question_label": "323Q6SJS8IFG0ERGLWT134OIOL3FHT",
+        "Question": "what moves because of vanes rotating in an electric fan? (A) nitrogen and oxygen (B) sun rays (C) microwaves (D) some mammals (E) living things (F) animals with backbones (G) kinetic energy (H) neutrons",
+        "Correct answer": "A",
+        "explanation": "the vanes rotating in an electric fan causes air to move\nAir is mostly nitrogen and oxygen.",
+        "id": 44,
+        "premise": "none",
+        "hypothesis": "Nitrogen and oxygen move because of vanes rotating in an electric fan."
+    },
+    {
+        "question_label": "3OJSZ2ATDSVR5SSF2BUGQF8BJR875J",
+        "Question": "plates in the earth do what which causes earthquakes (A) Movement (B) waves (C) heat (D) collide (E) moves (F) erosion (G) break off (H) friction",
+        "Correct answer": "D",
+        "explanation": "faulting of rock in Earth 's crust causes earthquakes\nFault zones are plates in the earth that slide and collide.",
+        "id": 45,
+        "premise": "none",
+        "hypothesis": "Plates in the earth collide which causes earthquakes."
+    },
+    {
+        "question_label": "3VD82FOHKQNJPJTTY7YQF70G8FCCO1",
+        "Question": "Bees and other insects are attracted on purpose by what? (A) colors (B) orchids (C) human food (D) chemicals (E) flowers (F) humans (G) pollen (H) perfume",
+        "Correct answer": "E",
+        "explanation": "Flowers attract animal pollinators.\nInsects are the most common animal pollinators, and bees are the most common insect pollinators.",
+        "id": 46,
+        "premise": "none",
+        "hypothesis": "Bees and other insects are attracted on purpose by flowers."
+    },
+    {
+        "question_label": "38BQUHLA9WZWY55KBWS4I35SYEYOMF",
+        "Question": "Genes are inherited together if they are located on the same what? (A) the eyes (B) chromosome (C) cell (D) gene (E) pollen (F) sensory neurons (G) DNA (H) Most plants",
+        "Correct answer": "B",
+        "explanation": "Genes that are located on the same chromosome are called linked genes.\nLinked genes are inherited together.",
+        "id": 47,
+        "premise": "none",
+        "hypothesis": "Genes are inherited together if they are located on the same chromosome."
+    },
+    {
+        "question_label": "320DUZ38G7LI5KI1KG24X2492TWJGS",
+        "Question": "Unequal heating of the Earth's surface by the Sun causes ocean circulation and what? (A) Energy. (B) climate (C) raincoats (D) The atmosphere (E) tropical wind (F) freezing rain (G) pouring down (H) to move people",
+        "Correct answer": "E",
+        "explanation": "unequal heating of Earth 's surface by the Sun causes global wind patterns\nFinally, the pattern of tropical wind and ocean circulation is a key element of global circulation.",
+        "id": 48,
+        "premise": "none",
+        "hypothesis": "Unequal heating of the Earth's surface by the Sun causes ocean circulation and tropical wind."
+    },
+    {
+        "question_label": "3U088ZLJVKS7007FDDWG10B126K0W6",
+        "Question": "What does a rubber band snapping cause? (A) its atoms freeze (B) it heats up (C) its atoms slow down (D) Energy. (E) voltage (F) electrically (G) it cools down (H) chemical changes",
+        "Correct answer": "B",
+        "explanation": "a rubber band snapping causes the particles in the rubber band to vibrate\nConvection is the transmission of heat by the mass movement of the heated particles.",
+        "id": 49,
+        "premise": "none",
+        "hypothesis": "A rubber band snapping causes it to heat up."
+    },
+    {
+        "question_label": "3S0TNUHWKTHQ9JCRRM452RSYB608DZ",
+        "Question": "what requires a warm body temperature for survival? (A) Man (B) humans (C) oxygen (D) density (E) cows (F) dogs (G) fish (H) water",
+        "Correct answer": "E",
+        "explanation": "an animal usually requires a warm body temperature for survival\nCows are social animals.",
+        "id": 50,
+        "premise": "none",
+        "hypothesis": "Cows require a warm body temperature for survival."
+    },
+    {
+        "question_label": "3300DTYQT2G17TQN9BWPU0VJ434QEV",
+        "Question": "What can use energy in order to make food for itself and others? (A) organisms (B) mollusks (C) trees (D) microbes (E) seeds (F) chlorophyll (G) plants (H) animals",
+        "Correct answer": "G",
+        "explanation": "Producers use energy and inorganic molecules to make food.\nIf the plant is green, it is a producer.",
+        "id": 51,
+        "premise": "none",
+        "hypothesis": "Plants can use energy in order to make food for itself and others."
+    },
+    {
+        "question_label": "39JEC7537U0EF32QZJK4AZUO2ICCVO",
+        "Question": "what do adult sponges produce? (A) Energy (B) heat (C) gametes (D) alveoli (E) fertile (F) food (G) white (H) homogenous",
+        "Correct answer": "C",
+        "explanation": "Adult sponges produce eggs and sperm.\nSperm and eggs are cells known as gametes.",
+        "id": 52,
+        "premise": "none",
+        "hypothesis": "Adult sponges produce gametes."
+    },
+    {
+        "question_label": "3DEL4X4EL6KJMV8QVQ3BVBJSIOCXY5",
+        "Question": "what does bacteria cause? (A) loss of h2o (B) harmful substances (C) Pollution (D) serious illness (E) increase in oxygen (F) carbon (G) Deoxyribonucleicacid (H) symptoms",
+        "Correct answer": "D",
+        "explanation": "bacteria cause food poisoning\nFood poisoning is a serious illness.",
+        "id": 53,
+        "premise": "none",
+        "hypothesis": "Bacteria cause serious illness."
+    },
+    {
+        "question_label": "3WZ36BJEV3FGS66VGOOUYX0LY0ZTB8",
+        "Question": "What produces grain? (A) flowers (B) leaves (C) food (D) sugar (E) ducks (F) plants (G) honeybees (H) mice",
+        "Correct answer": "A",
+        "explanation": "a flower 's purpose is to produce seeds\nGrain is the seed portion of the plants.",
+        "id": 54,
+        "premise": "none",
+        "hypothesis": "Flowers produce grain."
+    },
+    {
+        "question_label": "3I7DHKZYGNZ4KL7LKUSSE7LSJDNF5P",
+        "Question": "what converts mechanical energy into kinetic energy when it moves? (A) dogs (B) Bats (C) camels (D) Birds (E) Mammal (F) bears (G) hawks (H) Whales",
+        "Correct answer": "A",
+        "explanation": "when an animal moves , chemical energy is converted to mechanical energy\nAll dogs are animals .",
+        "id": 55,
+        "premise": "none",
+        "hypothesis": "Dogs convert mechanical energy into kinetic energy when they move."
+    },
+    {
+        "question_label": "3LOZAJ85YDCTLAFJ25WGM7IN7MEX2F",
+        "Question": "What needs to be lacking for a creature to change habitat? (A) warmth (B) inedible plants (C) wind (D) oxygen (E) nektar (F) food (G) O2 (H) dirt",
+        "Correct answer": "F",
+        "explanation": "if a habitat can no longer support animals then those animals will move to another area\nAnimals are dependent on plants for food and habitat.",
+        "id": 56,
+        "premise": "none",
+        "hypothesis": "A creature needs to be lacking food to change habitat."
+    },
+    {
+        "question_label": "3E337GFOL97EOA9MZEUWQ9LQCKCGNJ",
+        "Question": "a disease that can be metastic occurs when the cell cycle is regulated how often? (A) often (B) no less (C) forever (D) Leptospirosis (E) illness (F) heat or cold (G) no longer (H) electrically",
+        "Correct answer": "G",
+        "explanation": "Cancer is a disease that occurs when the cell cycle is no longer regulated.\nMetastatic cancer is cancer that has spread.",
+        "id": 57,
+        "premise": "none",
+        "hypothesis": "A disease that can be metastatic occurs when the cell cycle is regulated no longer."
+    },
+    {
+        "question_label": "3PB5A5BD0V5PLPHZJ7D7UCZ09TCG7M",
+        "Question": "What do windmills use to convert energy? (A) Heat (B) fibers (C) copper (D) cycles (E) SO2 (F) Vanes (G) calcite (H) Lift",
+        "Correct answer": "F",
+        "explanation": "a windmill converts wind energy into electricity primarily by using mechanical energy\nWindmills tap into the energy of the wind using sails or vanes.",
+        "id": 58,
+        "premise": "none",
+        "hypothesis": "Windmills use vanes to convert energy."
+    },
+    {
+        "question_label": "3BF51CHDTV9P3ACQIEAG0X1EJN5H0R",
+        "Question": "What group of animals do chordates belong to? (A) graptolites (B) more abundant (C) warm-blooded (D) four limbs (E) epidermal (F) Vertebrates (G) animals (H) insects",
+        "Correct answer": "F",
+        "explanation": "Chordates have a complete digestive system and a closed circulatory system.\nVertebrates have a closed circulatory system.",
+        "id": 59,
+        "premise": "none",
+        "hypothesis": "Chordates belong to the group of animals known as vertebrates."
+    },
+    {
+        "question_label": "3QXNC7EIPIUWO4U7K2MONG3QX2I09M",
+        "Question": "What do animals require to move? (A) babies (B) food (C) warmth (D) air (E) oven (F) heat (G) oxygen (H) children",
+        "Correct answer": "B",
+        "explanation": "an animal requires energy to move\nAll foods provide energy.",
+        "id": 60,
+        "premise": "none",
+        "hypothesis": "Animals require food to move."
+    },
+    {
+        "question_label": "3IQ1VMJRYTJSPHSPC4JHCMF35JB9AS",
+        "Question": "what does erosion form? (A) valleys (B) Sediment (C) mountains (D) canyons (E) soils (F) hills (G) soft soil (H) loose soil",
+        "Correct answer": "D",
+        "explanation": "most canyons are formed by flowing rivers through erosion over long periods of time\nCanyon formed as a consequence of river erosion.",
+        "id": 61,
+        "premise": "none",
+        "hypothesis": "Erosion forms canyons."
+    },
+    {
+        "question_label": "3JV9LGBJWTDW6V9Y0TU95YLV2UXOGM",
+        "Question": "What do cells secrete to maintain the proper pH for enzymes to work? (A) Energy (B) Chemical energy (C) water conservation (D) sweating (E) heat energy (F) aqueous solution (G) Organic compounds (H) electrolytes",
+        "Correct answer": "H",
+        "explanation": "Cells secrete acids and bases to maintain the proper pH for enzymes to work.\nAcids and bases are electrolytes.",
+        "id": 62,
+        "premise": "none",
+        "hypothesis": "Cells secrete electrolytes to maintain the proper pH for enzymes to work."
+    },
+    {
+        "question_label": "3X87C8JFV6A2HCV5A6GUJHZY3CYSQH",
+        "Question": "What rocks are formed by deposition? (A) Sand dollars (B) soft soil (C) jury (D) sandstone (E) coral reefs (F) In sediment (G) lawyer (H) basalt",
+        "Correct answer": "D",
+        "explanation": "sedimentary rocks are formed by deposition\nSedimentary Rocks One of the commonest sedimentary rocks is sandstone.",
+        "id": 63,
+        "premise": "none",
+        "hypothesis": "Rocks formed by deposition are sandstone."
+    },
+    {
+        "question_label": "3U088ZLJVKS7007FDDWG10B1V3Z0W8",
+        "Question": "What often requires bees? (A) food and shelter (B) Play dates (C) important habitats (D) genetic diversity (E) Plant reproduction (F) timers (G) gene flow (H) Wasp study",
+        "Correct answer": "E",
+        "explanation": "plant reproduction often requires pollen\nBees carry pollen from one plant to another when they collect both nectar and pollen.",
+        "id": 64,
+        "premise": "none",
+        "hypothesis": "Plant reproduction often requires bees."
+    },
+    {
+        "question_label": "35GMH2SV3EGYMHD7UY4L5V0J3QNOEC",
+        "Question": "What is a key factor determining global weather patterns? (A) influenza orthomyxoviruses (B) Something with a head, thorax, and abdomen (C) The atmosphere (D) Water density (E) Underground movement (F) Unequal heating of the earth (G) health (H) the sun's energy",
+        "Correct answer": "F",
+        "explanation": "unequal heating of Earth 's surface by the Sun causes global wind patterns\nWinds are a key factor in determining global weather patterns.",
+        "id": 65,
+        "premise": "none",
+        "hypothesis": "A key factor determining global weather patterns is unequal heating of the earth."
+    },
+    {
+        "question_label": "3LEP4MGT3GZ9BHAYUYOFTTIZEOEBDD",
+        "Question": "What do plants require for reproduction? (A) energy (B) nutrients (C) bloom time (D) animals (E) sunlight (F) Energy. (G) food (H) hormones",
+        "Correct answer": "D",
+        "explanation": "plant requires seed dispersal for reproduction\nSeeds are probably dispersed by animals.",
+        "id": 66,
+        "premise": "none",
+        "hypothesis": "Plants require animals for reproduction."
+    },
+    {
+        "question_label": "351SEKWQS0G5U8EVLNEO79TTV8MMDS",
+        "Question": "Meiosis is the type of cell division that produces: (A) animals (B) Plant reproduction (C) Most plants (D) peachleaf willow (E) Plants growth (F) haploid cells (G) spread flower seeds (H) rapid expansion",
+        "Correct answer": "F",
+        "explanation": "Meiosis is the type of cell division that produces gametes.\nGametes are haploid egg or sperm that fuse to form a zygote.",
+        "id": 67,
+        "premise": "none",
+        "hypothesis": "Meiosis is the type of cell division that produces haploid cells."
+    },
+    {
+        "question_label": "3KGTPGBS6XK146LOX0LT20JJD7S2UT",
+        "Question": "What does natural selection do to organisms? (A) move to different locations (B) Damages them (C) protect them (D) Creates them (E) Softens them (F) competing for resources (G) Helps them survive (H) Destroy them",
+        "Correct answer": "G",
+        "explanation": "Evolution occurs by a process called natural selection.\nEvolution is about electing to survive.",
+        "id": 68,
+        "premise": "none",
+        "hypothesis": "Natural selection helps them survive."
+    },
+    {
+        "question_label": "3OWEPKL089BVVHYL6BQ2KW8XRW17NN",
+        "Question": "Vaccines that offer protection from cervical cancer target  (A) animals (B) organ (C) health (D) glioblastoma (E) bacteria (F) measles (G) it's state (H) viruses",
+        "Correct answer": "H",
+        "explanation": "Some viruses can cause cancer.\nHuman papillomavirus vaccine is aimed at the cause of most cases of cervical cancer.",
+        "id": 69,
+        "premise": "none",
+        "hypothesis": "Vaccines that offer protection from cervical cancer target viruses."
+    },
+    {
+        "question_label": "3X1FV8S5JXQRWFIV15GN0QF3031VG0",
+        "Question": "what do ecosystems get energy from? (A) colors of the spectrum (B) fossil fuels (C) during the day (D) our star (E) electromagnetism (F) In their leaves (G) rays or beams (H) sun's heat",
+        "Correct answer": "E",
+        "explanation": "Most ecosystems get energy from sunlight.\nSunlight is a form of electromagnetic energy.",
+        "id": 70,
+        "premise": "none",
+        "hypothesis": "Ecosystems get energy from electromagnetism."
+    },
+    {
+        "question_label": "3TMSXRD2X6Z77PSX9W0GF5UB6FY1WF",
+        "Question": "what do animals lack? (A) Bodily water (B) hair (C) skin cells (D) fur and fat (E) chlorophyll (F) lungs (G) Chemical energy (H) sensory neurons",
+        "Correct answer": "E",
+        "explanation": "Chloroplasts contain the green pigment chlorophyll.\nAnimals lack chloroplasts.",
+        "id": 71,
+        "premise": "none",
+        "hypothesis": "Animals lack chlorophyll."
+    },
+    {
+        "question_label": "3M1CVSFP604YHG9BT6U3YH5SKU6AQX",
+        "Question": "What make the stem or root grow larger in diameter? (A) heart cells (B) rainfall (C) bending light rays (D) vascular tissues (E) tissue boxes (F) plant cells (G) colors of the spectrum (H) Exfoliation",
+        "Correct answer": "D",
+        "explanation": "Secondary meristem is located within and around the vascular tissues.\nSecondary meristems make the stem or root grow larger in diameter.",
+        "id": 72,
+        "premise": "none",
+        "hypothesis": "Vascular tissues make the stem or root grow larger in diameter."
+    },
+    {
+        "question_label": "34J10VATJFXDNYS95UMGFFTBTUXIQB",
+        "Question": "What are clouds made of? (A) tiny (B) thunder (C) energy (D) mud (E) Energy. (F) gas (G) sediment (H) water",
+        "Correct answer": "H",
+        "explanation": "condensation causes clouds to form\nCondensation is water from the air.",
+        "id": 73,
+        "premise": "none",
+        "hypothesis": "Clouds are made of water."
+    },
+    {
+        "question_label": "39O5D9O87TRU3U07F9EYR4258913CJ",
+        "Question": "What does pulping fibres for paper save? (A) Trees (B) animals (C) tissue (D) people (E) Time (F) Energy (G) Manpower (H) humans",
+        "Correct answer": "A",
+        "explanation": "creating wood-free paper does not require cutting down trees\nDozens of non-wood fibers are pulped for paper around the world.",
+        "id": 74,
+        "premise": "none",
+        "hypothesis": "Pulping fibres for paper saves trees."
+    },
+    {
+        "question_label": "3ZY8KE4ISJ2I94C941LZU4J5IPHVQC",
+        "Question": "what does extreme heat and pressure change rock into? (A) coal (B) crust (C) forces (D) calcite (E) an object (F) marble (G) soils (H) mines",
+        "Correct answer": "F",
+        "explanation": "extreme heat and pressure change rock into metamorphic rock\nMarble is a form of metamorphic rock.",
+        "id": 75,
+        "premise": "none",
+        "hypothesis": "Extreme heat and pressure change rock into marble."
+    },
+    {
+        "question_label": "3K772S5NP8AOU0RKQL9VLM3IBWMEHV",
+        "Question": "If an organism becomes too hot, then what completes their cycle? (A) sweating (B) Dehydration (C) Jellyfish (D) squids (E) dormant state (F) starfish (G) decomposers (H) cancer",
+        "Correct answer": "G",
+        "explanation": "if an organism becomes too hot then that organism may die\nWhen the animals and plants die, the decomposers complete the cycle.",
+        "id": 76,
+        "premise": "none",
+        "hypothesis": "If an organism becomes too hot, then decomposers complete their cycle."
+    },
+    {
+        "question_label": "3PXX5PX6LXXBDA7MAOXD3SATZP4ABB",
+        "Question": "Mussels have what? (A) seaweed (B) arms (C) Energy (D) a shell (E) warmth (F) bacteria (G) Length (H) legs",
+        "Correct answer": "D",
+        "explanation": "Most mollusks have shells.\nMussels are bivalve mollusks.",
+        "id": 77,
+        "premise": "none",
+        "hypothesis": "Mussels have a shell."
+    },
+    {
+        "question_label": "35H6S234SAZ81SEAJ1POK18FR1O65S",
+        "Question": "what can communicate with sounds, chemicals, or visual cues? (A) sound waves (B) bears (C) sheep (D) humans (E) sun rays (F) clouds (G) Birds (H) cats",
+        "Correct answer": "H",
+        "explanation": "Animals can communicate with sounds, chemicals, or visual cues.\nAll cats are animals.",
+        "id": 78,
+        "premise": "none",
+        "hypothesis": "Cats can communicate with sounds, chemicals, or visual cues."
+    },
+    {
+        "question_label": "3ZDAD0O1T1CN599WLKGCNURD4FBXTK",
+        "Question": "What derive energy from the breakdown of organic molecules? (A) Most plants (B) hydrocarbons (C) potatoes (D) all stones (E) all water sources (F) all mountains (G) all animals (H) Generating heat",
+        "Correct answer": "G",
+        "explanation": "All animals are heterotrophs.\nHeterotrophic bacteria derive energy from the breakdown of organic molecules.",
+        "id": 79,
+        "premise": "none",
+        "hypothesis": "All animals derive energy from the breakdown of organic molecules."
+    },
+    {
+        "question_label": "3HRMW88U16PBVOD19BQTS29AZCE0MY",
+        "Question": "What can be used to extend the shelf life of food? (A) irradiation (B) farming (C) Dehydration (D) rays or beams (E) vegetables (F) Cooking (G) Enzymes (H) fruit",
+        "Correct answer": "A",
+        "explanation": "killing microorganisms in food can be used to extend the shelf life of that food\nIrradiation kills microorganisms that spoil food.",
+        "id": 80,
+        "premise": "none",
+        "hypothesis": "Irradiation can be used to extend the shelf life of food."
+    },
+    {
+        "question_label": "3A9AA95ATWLGBYWFYXOXQ1ZWQICP57",
+        "Question": "Bottleneck effect can occur with  (A) external migration (B) direct damage to the lungs (C) Movement of an air mass (D) competition (E) if humans disturb bears (F) competing for resources (G) Plant growth is reduced (H) Temperature changing",
+        "Correct answer": "A",
+        "explanation": "Bottleneck effect occurs when a population suddenly gets much smaller.\nPopulation growth is reduced by external migration.",
+        "id": 81,
+        "premise": "none",
+        "hypothesis": "Bottleneck effect can occur with external migration."
+    },
+    {
+        "question_label": "3KOPY89HM81HB86DP1VKE8F0YFOJ3Z",
+        "Question": "What causes things to die and quickly decay? (A) beans (B) mushrooms (C) viruses (D) medicine (E) poison (F) heat (G) bacteria (H) apoptosis",
+        "Correct answer": "E",
+        "explanation": "poison causes harm to living things\nWhen living things die, they quickly begin to decay.",
+        "id": 82,
+        "premise": "none",
+        "hypothesis": "Poison causes things to die and quickly decay."
+    },
+    {
+        "question_label": "36TFCYNS449X00I1LQZN9BOPR2DXH3",
+        "Question": "Computers run when what is working properly? (A) metal forks (B) an engine (C) lowered energy cost (D) deoxyribonucleic acid (E) plastic switches (F) objects that have mass (G) power ballads (H) electrical circuit",
+        "Correct answer": "H",
+        "explanation": "when an electrical circuit is working properly , electrical current runs through that circuit\nCurrently computers run on electric circuits and wires.",
+        "id": 83,
+        "premise": "none",
+        "hypothesis": "Computers run when electrical circuit is working properly."
+    },
+    {
+        "question_label": "31Z0PCVWUKETQU3537CETVEP58V7T9",
+        "Question": "What mammals have a high energy requirement and generate heat? (A) cats (B) bats (C) Crustaceans (D) bears (E) frogs (F) lizards (G) birds (H) mammals",
+        "Correct answer": "G",
+        "explanation": "Mammals generate heat mainly by keeping their metabolic rate high.\nBirds have a high metabolic rate and a high energy requirement.",
+        "id": 84,
+        "premise": "none",
+        "hypothesis": "Birds have a high energy requirement and generate heat."
+    },
+    {
+        "question_label": "34V1S5K3GS0R2FGMMR25WHDHEBL69Q",
+        "Question": "Pacinian corpuscles are found mainly in the _. (A) tumor (B) pupils (C) muscle (D) hair (E) skin (F) Man (G) retina (H) Summer",
+        "Correct answer": "E",
+        "explanation": "Pressure receptors are found mainly in the skin.\nPacinian corpuscles are pressure receptors.",
+        "id": 85,
+        "premise": "none",
+        "hypothesis": "Pacinian corpuscles are found mainly in the skin."
+    },
+    {
+        "question_label": "3WMOAN2SRBWX67ZHO9TIQAO0ZI6VNV",
+        "Question": "What is used as energy by most organisms? (A) sodium (B) water (C) energy. (D) food (E) sugar (F) Energy (G) solutes (H) light",
+        "Correct answer": "E",
+        "explanation": "Glucose is used for energy by the cells of most organisms.\nFor instance, glucose is a sugar.",
+        "id": 86,
+        "premise": "none",
+        "hypothesis": "Most organisms use sugar as energy."
+    },
+    {
+        "question_label": "3BEFOD78W6SSUCV2SCDV45ZNJA04MZ",
+        "Question": "What reproduce sexually? (A) ferns (B) bulbs (C) toads (D) Flowers (E) legumes (F) bamboo (G) embryos (H) humans",
+        "Correct answer": "B",
+        "explanation": "Tunicates reproduce sexually.\nBulbs are classifies as tunicate or non-tunicate.",
+        "id": 87,
+        "premise": "none",
+        "hypothesis": "Bulbs reproduce sexually."
+    },
+    {
+        "question_label": "3Y54SXRO1LKVO5F1GF5P3NS9OORUTI",
+        "Question": "A bulb uses electrical energy to produce: (A) waves (B) unique (C) fields (D) Green (E) heat (F) rays (G) energy (H) warmth",
+        "Correct answer": "F",
+        "explanation": "a light bulb requires electrical energy to produce light\nRay translates as light .",
+        "id": 88,
+        "premise": "none",
+        "hypothesis": "A bulb uses electrical energy to produce rays."
+    },
+    {
+        "question_label": "3NG53N1RLVIZYGFHWVV02L9NQWT8PI",
+        "Question": "what can only contract? (A) resistance (B) lungs (C) nerves (D) Bend (E) triceps (F) strong (G) mechanical (H) four limbs",
+        "Correct answer": "E",
+        "explanation": "Muscles can only contract.\nArm day hits the bicep, tricep and forearm muscles.",
+        "id": 89,
+        "premise": "none",
+        "hypothesis": "Triceps can only contract."
+    },
+    {
+        "question_label": "3U4J9857OEATU89O3LLTT183YBY7B5",
+        "Question": "Where can peat, buried under soil and mud and through extreme heat and pressure, change into coal? (A) coastlines (B) alluvial (C) Sediment (D) uncontrolled (E) germany (F) wetlands (G) wind (H) deltas",
+        "Correct answer": "F",
+        "explanation": "being burried under soil and mud changes peat into coal through extreme heat and pressure in a swamp over a long period of time\nMarshes and swamps are wetlands.",
+        "id": 90,
+        "premise": "none",
+        "hypothesis": "Peat, buried under soil and mud and through extreme heat and pressure, can change into coal in wetlands."
+    },
+    {
+        "question_label": "33JKGHPFYCTEGK58AHSR3E5N74QMNU",
+        "Question": "Why do bears hibernate? (A) use greater resources (B) one celled organisms (C) they are lazy (D) conserve energy (E) When it's cold (F) hard outer covering (G) hydration (H) more sleep",
+        "Correct answer": "D",
+        "explanation": "hibernation is used for conserving energy by some animals\nBears use the fat as energy over the winter hibernation.",
+        "id": 91,
+        "premise": "none",
+        "hypothesis": "Bears hibernate to conserve energy."
+    },
+    {
+        "question_label": "3GS6S824SQWALWZMEJYECC7E798NWY",
+        "Question": "Which of the following interferes with the assembly of proteins? (A) flow of electrons (B) Electric devices (C) Smoking (D) dry conditions (E) saturated fats (F) Humans (G) palm oil (H) Azathioprine.",
+        "Correct answer": "H",
+        "explanation": "DNA contains genetic instructions for proteins, and RNA helps assemble the proteins.\nAzathioprine interferes with DNA and RNA synthesis.",
+        "id": 92,
+        "premise": "none",
+        "hypothesis": "Azathioprine interferes with the assembly of proteins."
+    },
+    {
+        "question_label": "38JBBYETQO9UIO3PBEPCRXUE9HT4EB",
+        "Question": "Adults of what kind of animal have radial symmetry? (A) graptolites (B) starfish (C) a fish (D) fur seals (E) alpacas (F) insects (G) fertile (H) barnacles",
+        "Correct answer": "B",
+        "explanation": "Adult echinoderms have radial symmetry.\nEchinoderms are represented by the starfish.",
+        "id": 93,
+        "premise": "none",
+        "hypothesis": "Adults of starfish have radial symmetry."
+    },
+    {
+        "question_label": "33ISQZVXPPLIGUWQ82PZK76ZSCVCC1",
+        "Question": "Sense of smell impacts an animal's what? (A) mate (B) reproduction (C) growth (D) habitat (E) survival (F) Movement (G) hormones (H) traits",
+        "Correct answer": "E",
+        "explanation": "better senses have a positive impact on an animal 's survival\nPlus, our sense of smell is infinitely better.",
+        "id": 94,
+        "premise": "none",
+        "hypothesis": "Sense of smell impacts an animal's survival."
+    },
+    {
+        "question_label": "3TMFV4NEP8DPIPCI8H9VUFHJVRQW83",
+        "Question": "Threatening behavior causes a fight-or-flight response in what? (A) Whales (B) dogs (C) hair (D) Birds (E) humans (F) hats (G) bacteria (H) bears",
+        "Correct answer": "B",
+        "explanation": "threatening behavior causes a fight-or-flight response in animals\nDogs are highly social animals.",
+        "id": 95,
+        "premise": "none",
+        "hypothesis": "Threatening behavior causes a fight-or-flight response in dogs."
+    },
+    {
+        "question_label": "3G5F9DBFOPW5WBD6LBY5LQR4HBEHV3",
+        "Question": "What causes an object to lose energy? (A) fur and fat (B) Temperature (C) sweating (D) Evaporation (E) wind (F) pressure (G) Dehydration (H) photons",
+        "Correct answer": "F",
+        "explanation": "friction causes an object to lose energy\nPressure causes friction, and friction causes heat.",
+        "id": 96,
+        "premise": "none",
+        "hypothesis": "Pressure causes an object to lose energy."
+    },
+    {
+        "question_label": "37W3JXSD6674XV30LL7PTS5LNPAWYZ",
+        "Question": "Evaporation can be used for separating a solute from a water in what? (A) molecule (B) Condensation (C) atom (D) aqueous solution (E) Heat energy (F) vaporization (G) evaporation (H) aqueous chemical",
+        "Correct answer": "D",
+        "explanation": "evaporation can be used for separating a solute from a solvent in a solution\nAn aqueous solution has water as the solvent.",
+        "id": 97,
+        "premise": "none",
+        "hypothesis": "Evaporation can be used for separating a solute from a water in an aqueous solution."
+    },
+    {
+        "question_label": "3TE3O8573079OET7T6QOXPWZ16R2RJ",
+        "Question": "eggs need to incubate to what (A) complete (B) mitosis (C) be fertilized (D) produce nutrients (E) be eaten (F) Winter (G) survive (H) sunlight",
+        "Correct answer": "G",
+        "explanation": "an egg requires warmth to survive\nEggs depend upon body warmth to incubate.",
+        "id": 98,
+        "premise": "none",
+        "hypothesis": "Eggs need to incubate to survive."
+    },
+    {
+        "question_label": "3R9WASFE2ZF2RZRARIZ83BSNN3OZFU",
+        "Question": "What responds to daily and seasonal cycles and to disease? (A) resistance (B) Sundays (C) vegetation (D) Summer season (E) swamp vegetation (F) Mondays (G) alpacas (H) Green beans",
+        "Correct answer": "H",
+        "explanation": "Plants respond to daily and seasonal cycles and to disease.\nGreen bean plantings continue to be planted.",
+        "id": 99,
+        "premise": "none",
+        "hypothesis": "Green beans respond to daily and seasonal cycles and to disease."
+    },
+    {
+        "question_label": "3X66WABAJWH7K6GCHVAHHVNK6OEG31",
+        "Question": "What do species rely on to talk? (A) Frogs (B) energy (C) language (D) hands (E) squids (F) feet (G) Frogs. (H) sound",
+        "Correct answer": "H",
+        "explanation": "sound can be used for communication by animals\nMany animals rely on sounds to communicate to others in their species.",
+        "id": 100,
+        "premise": "none",
+        "hypothesis": "Species rely on sound to talk."
+    }
+]
