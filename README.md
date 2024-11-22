@@ -41,7 +41,7 @@ export PATH=$PATH:/Desktop/Isabelle2023.app/bin
 #### API Keys
 Set your `api_key` in the `config.yaml` file. This project also supports using Ollama with any open-weight or open-source LLMs.
 
-# Reproducibility
+###  Reproducibility
 Clone this repository into the same directory where you installed Isabelle. Run the following command:
 
 ```bash
