@@ -26,7 +26,7 @@ tar -xzf Isabelle2023_linux.tar.gz --no-same-owner
 
 Append Isabelle2023's bin directory to your PATH
 ```bash
-export PATH=$PATH:/home/ubuntu/Isabelle2023/bin 
+export PATH=$PATH:/Users/user/Desktop/Isabelle2023.app/bin 
 ```
 
 #### macOS Installation:
@@ -35,7 +35,7 @@ Download Isabelle2023/2024 for macOS from the official website: https://isabelle
 
 Append Isabelle2023's bin directory to your PATH
 ```bash
-export PATH=$PATH:/home/ubuntu/Isabelle2023/bin 
+export PATH=$PATH:/Users/user/Desktop/Isabelle2023.app/bin
 ```
 
 #### API Keys
