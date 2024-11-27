@@ -26,7 +26,7 @@ tar -xzf Isabelle2023_linux.tar.gz --no-same-owner
 
 Append Isabelle2023's bin directory to your PATH
 ```bash
-export PATH=$PATH:/Users/user/Desktop/Isabelle2023.app/bin 
+export PATH=$PATH:/Users/user/Desktop/Isabelle2023/bin 
 ```
 
 #### macOS Installation:
